@@ -93,14 +93,14 @@
     margin-top:10px;
 }
 #wrapper aside{
-    border: 1px solid grey;
-    margin: 10px;
-    width:30% ;
+    margin-top: 10px;
+    width:28% ;
     background-color: #f6f3f3;
 }
 
 #wrapper aside  .asideitem {
-    margin:10px;
+    padding: 10px;
+    margin: 10px;
     padding: 10px 10px 20px 10px;
     border-bottom: 1px solid grey;
 }
@@ -289,7 +289,7 @@ footer{
     #container nav .nav-links{
         position: fixed;
         background-color: rgb(44, 176, 228);
-        height: 100vh;
+        height: 90vh;
         width: 100%;
         flex-direction: column;
         clip-path: circle(100px at 10% -50%);
@@ -345,5 +345,26 @@ footer{
         flex-direction: column;
         width: 100%;
     }
+
+    /* Single page*/
+    #wrapper main .comment form input{
+        width: 100%;
+    }
+    #wrapper .after_image_post {
+        flex-direction:column;
+    }
+    #wrapper .after_image_post #author_date {
+        width: 100%;
+    }
+    #wrapper .after_image_post #sharing{
+        width: 100%;
+        background-color: #dadada;
+        justify-content: space-around;
+        align-items: center;
+        height: 10vh;
+        margin-top: 6px;
+       
+    }
+    /* end single page*/
 
 }
