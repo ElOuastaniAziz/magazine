@@ -125,6 +125,36 @@
     margin-top:10px;
     text-align: justify;
 }
+/* EXTRAS*/
+.extras{
+    background-color: rebeccapurple;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.extras .extra{
+    width: 30%;
+}
+.extras .extra a{
+    color: #fff;
+    text-decoration: none;
+}
+.extras .extra img{
+    width: 98%;
+}
+
+.extras .extra h3{
+   margin: 15px 0px 10px 0px;
+}
+.extras .extra h3 a:hover{
+    opacity: 0.8;
+}
+.extras .extra p{
+    text-align: justify;
+}
+/*FIN EXTRAS*/
 
 
 section{
@@ -345,6 +375,20 @@ footer{
         flex-direction: column;
         width: 100%;
     }
+    /* EXTRAS*/
+    .extras{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .extras .extra{
+        width: 100%;
+        padding-bottom: 20px;
+        border-bottom: #dadada 1px solid;
+    }
+    .extras .extra img{
+        width: 100%;
+    }
+    /*FIN EXTRAS*/
 
     /* Single page*/
     #wrapper main .comment form input{
